@@ -1,0 +1,4 @@
+T=1104 | train 712 val 76 test 213 | test origins 2022-07-10 -> 2023-02-07
+qepignn_hybrid seed0 | h7: RMSE 9.69 MAE 4.66 MAPE 26.5 h14: RMSE 11.60 MAE 6.04 MAPE 34.8 h30: RMSE 14.97 MAE 8.68 MAPE 56.0 | ep 40 240s params 30310
+qepignn_hybrid seed1 | h7: RMSE 10.08 MAE 4.58 MAPE 26.6 h14: RMSE 9.18 MAE 4.86 MAPE 28.6 h30: RMSE 9.59 MAE 6.33 MAPE 42.4 | ep 35 202s params 30310
+qepignn_hybrid seed2 | h7: RMSE 10.05 MAE 4.81 MAPE 27.9 h14: RMSE 11.65 MAE 6.16 MAPE 36.0 h30: RMSE 14.63 MAE 8.27 MAPE 54.7 | ep 36 205s params 30310

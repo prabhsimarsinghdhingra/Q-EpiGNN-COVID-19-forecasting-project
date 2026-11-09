@@ -1,0 +1,17 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+filterwarnings = ["ignore::UserWarning"]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["src/figures.py", "src/figs_extra.py"]   # plotting scripts (run as scripts, visually checked)
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E741", "E701", "E702", "E703", "E501"]   # allow compact maths-style code and long lines

@@ -1,0 +1,170 @@
+{
+ "qepignn__vs__persistence__h7": {
+  "diff": -0.24153423309326172,
+  "ci_low": -1.0095969200134278,
+  "ci_high": 0.555436635017395,
+  "p": 0.55925,
+  "significant": false
+ },
+ "qepignn__vs__persistence__h14": {
+  "diff": 0.5186929702758789,
+  "ci_low": -1.138376808166504,
+  "ci_high": 2.3060971736907963,
+  "p": 0.59525,
+  "significant": false
+ },
+ "qepignn__vs__persistence__h30": {
+  "diff": 1.8567657470703125,
+  "ci_low": -1.2391745805740355,
+  "ci_high": 4.9913018465042125,
+  "p": 0.25775,
+  "significant": false
+ },
+ "qepignn__vs__gcn_lstm__h7": {
+  "diff": -0.8748006820678711,
+  "ci_low": -1.7858993053436278,
+  "ci_high": -0.03163251876831052,
+  "p": 0.03775,
+  "significant": true
+ },
+ "qepignn__vs__gcn_lstm__h14": {
+  "diff": -0.23308372497558594,
+  "ci_low": -2.1242226362228394,
+  "ci_high": 1.5122097730636597,
+  "p": 0.78675,
+  "significant": false
+ },
+ "qepignn__vs__gcn_lstm__h30": {
+  "diff": -1.6889448165893555,
+  "ci_low": -4.662189221382141,
+  "ci_high": 1.2279214382171635,
+  "p": 0.32325,
+  "significant": false
+ },
+ "qepignn__vs__lstm__h7": {
+  "diff": -1.5488414764404297,
+  "ci_low": -2.9671332359313967,
+  "ci_high": -0.17388551235198949,
+  "p": 0.02675,
+  "significant": true
+ },
+ "qepignn__vs__lstm__h14": {
+  "diff": -2.385342597961426,
+  "ci_low": -5.331616497039795,
+  "ci_high": 0.486205816268921,
+  "p": 0.10625,
+  "significant": false
+ },
+ "qepignn__vs__lstm__h30": {
+  "diff": -1.044198989868164,
+  "ci_low": -3.9357744216918946,
+  "ci_high": 2.286563062667847,
+  "p": 0.56875,
+  "significant": false
+ },
+ "abl_heat__vs__persistence__h7": {
+  "diff": -0.865025520324707,
+  "ci_low": -1.3333669900894165,
+  "ci_high": -0.48138725757598877,
+  "p": 0.00025,
+  "significant": true
+ },
+ "abl_heat__vs__persistence__h14": {
+  "diff": -0.763920783996582,
+  "ci_low": -1.8660974740982055,
+  "ci_high": -0.11121983528137201,
+  "p": 0.02425,
+  "significant": true
+ },
+ "abl_heat__vs__persistence__h30": {
+  "diff": -0.7865142822265625,
+  "ci_low": -2.259942555427551,
+  "ci_high": 0.49935944080352834,
+  "p": 0.17875,
+  "significant": false
+ },
+ "abl_heat__vs__qepignn__h7": {
+  "diff": -0.6234912872314453,
+  "ci_low": -1.304106307029724,
+  "ci_high": -0.16101474761962878,
+  "p": 0.00525,
+  "significant": true
+ },
+ "abl_heat__vs__qepignn__h14": {
+  "diff": -1.282613754272461,
+  "ci_low": -3.1992584586143495,
+  "ci_high": -0.10090454816818209,
+  "p": 0.02575,
+  "significant": true
+ },
+ "abl_heat__vs__qepignn__h30": {
+  "diff": -2.643280029296875,
+  "ci_low": -5.674354839324951,
+  "ci_high": -0.38829462528228714,
+  "p": 0.01675,
+  "significant": true
+ },
+ "qepignn_hybrid__vs__persistence__h7": {
+  "diff": -0.1716747283935547,
+  "ci_low": -1.2619756937026978,
+  "ci_high": 0.967489242553711,
+  "p": 0.72125,
+  "significant": false
+ },
+ "qepignn_hybrid__vs__persistence__h14": {
+  "diff": 2.2173776626586914,
+  "ci_low": -0.030773973464965767,
+  "ci_high": 4.856884860992432,
+  "p": 0.05525,
+  "significant": false
+ },
+ "qepignn_hybrid__vs__persistence__h30": {
+  "diff": 3.565185546875,
+  "ci_low": 0.5984544277191162,
+  "ci_high": 7.0114254713058495,
+  "p": 0.00875,
+  "significant": true
+ },
+ "qepignn_hybrid__vs__qepignn__h7": {
+  "diff": 0.06985950469970703,
+  "ci_low": -0.35875563621520995,
+  "ci_high": 0.49870736598968535,
+  "p": 0.86375,
+  "significant": false
+ },
+ "qepignn_hybrid__vs__qepignn__h14": {
+  "diff": 1.6986846923828125,
+  "ci_low": 0.6267315149307251,
+  "ci_high": 2.827731561660767,
+  "p": 0.00025,
+  "significant": true
+ },
+ "qepignn_hybrid__vs__qepignn__h30": {
+  "diff": 1.7084197998046875,
+  "ci_low": -0.15474405288696289,
+  "ci_high": 3.3567858695983888,
+  "p": 0.07225,
+  "significant": false
+ },
+ "qepignn_hybrid__vs__abl_heat__h7": {
+  "diff": 0.6933507919311523,
+  "ci_low": -0.05773289203643798,
+  "ci_high": 1.7295527696609498,
+  "p": 0.07825,
+  "significant": false
+ },
+ "qepignn_hybrid__vs__abl_heat__h14": {
+  "diff": 2.9812984466552734,
+  "ci_low": 1.143165373802185,
+  "ci_high": 5.869203388690949,
+  "p": 0.00025,
+  "significant": true
+ },
+ "qepignn_hybrid__vs__abl_heat__h30": {
+  "diff": 4.3516998291015625,
+  "ci_low": 1.7864319562911988,
+  "ci_high": 7.969698905944824,
+  "p": 0.00025,
+  "significant": true
+ }
+}
