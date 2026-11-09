@@ -41,7 +41,7 @@ jobs:
         run: python src/stats.py && python src/uncertainty.py
       - name: Figures and tables
         run: python src/figures.py && python src/figs_extra.py
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: qepignn-results
           path: |
